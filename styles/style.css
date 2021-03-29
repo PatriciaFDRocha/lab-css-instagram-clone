@@ -7,4 +7,103 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-color: rgba(7, 64, 114, 0.849);
+  background-image: linear-gradient(to bottom, rgba(7, 64, 114, 0.849),white);
+  background-size: 100% 50%;
+  background-repeat: no-repeat;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 30vh;
+}
+
+.phone img{
+  display: flex;
+  width: 30rem;
+}
+
+.sect2 {
+  width: 25vw;
+}
+
+.sec-1 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 150px;
+  width: 100%;
+}
+
+.brand {
+  align-items: center;
+  margin-left: 15px;
+}
+
+.log-in-button {
+  background-color: #1c5380;
+  color: white;
+  padding: 10px;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 8px;
+  margin-right: 15px;
+  width: 100px;
+}
+
+.text {
+  background-image: url(/images/frame.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 30rem;
+  background-color: white;
+}
+
+h2 {
+  color: #06365f;
+  align-items: center;
+  font-weight: 600;
+  width: 250px;
+  padding-left: 2rem;
+  padding-top: 1.2em;
+}
+
+.parag {
+  display: flex;
+  text-align: left;
+  flex-direction: row;
+  width: 430px;
+  padding-left: 2rem;
+}
+
+.button {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  border: none;
+  background: none;
+}
+
+.nav-bar-bottom {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  font-weight: 600;
+  margin: 2rem 2rem 3rem;
+}
+
+.nav-bar-link a {
+  text-decoration: none;
+  color: #1c5380;
+}
+
+.copy2014 a {
+  color: rgba(128, 128, 128, 0.212);
+  text-decoration: none;
 }
